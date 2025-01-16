@@ -1,0 +1,26 @@
+.sidebar-title{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16%;
+    height: 100%;
+    border-right: 2px solid #e5e5e5;
+    z-index: 3;
+}
+
+.logo-container{
+    margin-bottom: 4rem;
+}
+.logo-container img {
+    width: 40px; 
+    height: auto;
+    margin-top: 1rem;
+    object-fit: contain;
+}
